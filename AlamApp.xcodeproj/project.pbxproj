@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A84CA1611B65D73800ED1E53 /* MainClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = A84CA1601B65D73800ED1E53 /* MainClockView.m */; };
+		A8508FD11B6F958D0004B2D1 /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8508FD01B6F958D0004B2D1 /* SetupViewController.m */; };
 		A868C91B1B621CD400AD3D9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A868C91A1B621CD400AD3D9C /* main.m */; };
 		A868C91E1B621CD400AD3D9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A868C91D1B621CD400AD3D9C /* AppDelegate.m */; };
 		A868C9211B621CD400AD3D9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A868C9201B621CD400AD3D9C /* ViewController.m */; };
@@ -14,6 +16,8 @@
 		A868C9261B621CD400AD3D9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A868C9251B621CD400AD3D9C /* Images.xcassets */; };
 		A868C9291B621CD400AD3D9C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A868C9271B621CD400AD3D9C /* LaunchScreen.xib */; };
 		A868C9351B621CD500AD3D9C /* AlamAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A868C9341B621CD500AD3D9C /* AlamAppTests.m */; };
+		A868C9401B62249800AD3D9C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A868C93F1B62249800AD3D9C /* MainViewController.m */; };
+		A870603A1B67242A00F52216 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = A87060391B67242A00F52216 /* clock.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A84CA15F1B65D73800ED1E53 /* MainClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainClockView.h; sourceTree = "<group>"; };
+		A84CA1601B65D73800ED1E53 /* MainClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainClockView.m; sourceTree = "<group>"; };
+		A8508FCF1B6F958D0004B2D1 /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
+		A8508FD01B6F958D0004B2D1 /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
 		A868C9151B621CD400AD3D9C /* AlamApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A868C9191B621CD400AD3D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A868C91A1B621CD400AD3D9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +48,9 @@
 		A868C92E1B621CD500AD3D9C /* AlamAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlamAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A868C9331B621CD500AD3D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A868C9341B621CD500AD3D9C /* AlamAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlamAppTests.m; sourceTree = "<group>"; };
+		A868C93E1B62249800AD3D9C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A868C93F1B62249800AD3D9C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A87060391B67242A00F52216 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +92,18 @@
 		A868C9171B621CD400AD3D9C /* AlamApp */ = {
 			isa = PBXGroup;
 			children = (
+				A87060381B67240400F52216 /* Resources */,
+				A84CA15F1B65D73800ED1E53 /* MainClockView.h */,
+				A84CA1601B65D73800ED1E53 /* MainClockView.m */,
 				A868C91C1B621CD400AD3D9C /* AppDelegate.h */,
 				A868C91D1B621CD400AD3D9C /* AppDelegate.m */,
 				A868C91F1B621CD400AD3D9C /* ViewController.h */,
 				A868C9201B621CD400AD3D9C /* ViewController.m */,
+				A868C93E1B62249800AD3D9C /* MainViewController.h */,
+				A868C93F1B62249800AD3D9C /* MainViewController.m */,
 				A868C9221B621CD400AD3D9C /* Main.storyboard */,
+				A8508FCF1B6F958D0004B2D1 /* SetupViewController.h */,
+				A8508FD01B6F958D0004B2D1 /* SetupViewController.m */,
 				A868C9251B621CD400AD3D9C /* Images.xcassets */,
 				A868C9271B621CD400AD3D9C /* LaunchScreen.xib */,
 				A868C9181B621CD400AD3D9C /* Supporting Files */,
@@ -117,6 +135,14 @@
 				A868C9331B621CD500AD3D9C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A87060381B67240400F52216 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A87060391B67242A00F52216 /* clock.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A870603A1B67242A00F52216 /* clock.png in Resources */,
 				A868C9241B621CD400AD3D9C /* Main.storyboard in Resources */,
 				A868C9291B621CD400AD3D9C /* LaunchScreen.xib in Resources */,
 				A868C9261B621CD400AD3D9C /* Images.xcassets in Resources */,
@@ -221,7 +248,10 @@
 			files = (
 				A868C9211B621CD400AD3D9C /* ViewController.m in Sources */,
 				A868C91E1B621CD400AD3D9C /* AppDelegate.m in Sources */,
+				A84CA1611B65D73800ED1E53 /* MainClockView.m in Sources */,
 				A868C91B1B621CD400AD3D9C /* main.m in Sources */,
+				A8508FD11B6F958D0004B2D1 /* SetupViewController.m in Sources */,
+				A868C9401B62249800AD3D9C /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +446,7 @@
 				A868C93A1B621CD500AD3D9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A868C93B1B621CD500AD3D9C /* Build configuration list for PBXNativeTarget "AlamAppTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +455,7 @@
 				A868C93D1B621CD500AD3D9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
